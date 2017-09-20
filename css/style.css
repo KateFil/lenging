@@ -1,0 +1,964 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 50px;
+    position: relative;
+}
+.wrapHeader{
+    width: 100%;
+    height: 125px;
+    background-color: #fff;
+}
+.wrapBody{
+    width: 100%;
+    height: 550px;
+    background: linear-gradient(to bottom, #eaeaea, #fff);
+    position: relative;
+}
+.wrapFooter{
+    height: 180px;
+    width: 100%;
+    background: #242526;
+    bottom: -180px;
+    position: absolute;
+}
+
+.containerHeader{
+    width: 1140px;
+    min-height: 50px;
+    margin: 0 auto;
+}
+.containerBody{
+    width: 1140px;
+    min-height: 50px;
+    padding: 15px 0 0 0;
+    margin: 0 auto;
+}
+.containerMenu{
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    background: #242526;
+    z-index: 10000;
+}
+.containerFooter{
+    width: 1140px;
+    height: 100%;
+    margin: 0 auto;
+}
+.baner{
+    width: 100%;
+    height: 550px;
+    margin: 0 0 27px 0;
+}
+.menu{
+    width: 100%;
+    height: 360px;
+    margin: 0 0 35px 0;
+}
+
+/* header */
+
+.header{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.header .logo{
+    height: 100%;
+}
+
+.header .logo a{
+    display: inline-block;
+    margin-top: 29px;
+}
+
+.header .select{
+    height: 100%;
+}
+
+.header .select form{
+    margin-top: 29px;
+
+}
+
+.header .select form select{
+    background-image: none;
+    width: 69%;
+    display: inline;
+    padding-left: 40px;
+
+}
+
+.header .select form label{
+    width: 30%;
+}
+
+.header .contact{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.header .contact h3{
+    margin: 0;
+    padding: 0;
+    padding-top: 13%;
+}
+
+.icons{
+    position: absolute;
+    display:none;
+}
+
+.select .active{
+    display:block;
+    top: 47%;
+    left: 32%;
+}
+
+/* top */
+
+.containerBody .baner div div{
+    padding: 0;
+
+}
+#firstTopRow, #secondTopRow{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+#firstTopRow{
+    position: relative;
+    height: 70%;
+}
+#secondTopRow{
+    height: 30%;
+}
+
+
+#first1{
+    width: 50%;
+    height: 100%;
+    background: url("../img/first1.jpg") no-repeat;
+    background-size: cover;
+}
+
+#first1 a p:first-child {
+    height: 14%;
+    width: 48%;
+    margin-top: 28.5%;
+    margin-left: 10%;
+    color: #000;
+    background: #ffc000;
+    font-size: 34px;
+    text-transform:uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    border-radius: 2px;
+}
+#first1 a p:last-child{
+    height: 15%;
+    width: 80%;
+    margin-left: 10%;
+    color: #fff;
+    font-size: 34px;
+    text-transform: uppercase;
+    padding: 5px;
+    line-height: 1;
+}
+
+#first1 a p span{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#first2{
+    width: 25%;
+    height: 100%;
+    background: url("../img/first2.jpg") no-repeat;
+    background-size: cover;
+}
+
+#first3{
+    width: 25%;
+    height: 142.8%;
+    background: url("../img/first3.jpg") no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-size: cover;
+}
+
+#first3 a p:first-child {
+    margin: 57% 0 0 7%;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#first3 a p:first-child img {
+    padding-bottom: 6px;
+}
+
+#first3 a p:last-child {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+#second1, #second2, #second3{
+    width: 25%;
+    height: 100%;
+}
+
+#second1{
+    background: url("../img/second1.jpg") no-repeat;
+    background-size: cover;
+}
+
+#second2{
+    background: #ffc000;
+}
+
+#second2 a p:nth-child(1) {
+    color: #000;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 15% 0 0 14%;
+}
+#second2 a p:nth-child(2) {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 0 14%;
+    letter-spacing: 0.4px;
+}
+#second2 a p:nth-child(3) {
+    color: #000;
+    font-size: 20px;
+    margin: 0 0 0 14%;
+    letter-spacing: 0.6px;
+}
+
+#second3{
+    background: #000000;
+}
+
+#second3 a p:nth-child(1), #second3 a p:nth-child(3)  {
+    color: #fff;
+    font-size: 18px;
+    margin: 17% 0 0 13%;
+}
+#second3 a p:nth-child(2){
+    color: #ffc000;
+    font-size: 39px;
+    margin: 0 0 0 13%;
+    line-height: 1;
+}
+#second3 a p:nth-child(3){
+    margin: 0 0 0 13%;
+    line-height: 1;
+}
+
+#firstTopRow div a, #secondTopRow div a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+
+/* Меню */
+
+#firstMenuRow,#secondMenuRow{
+    width: 100%;
+    height: 46%;
+    margin: 0;
+}
+#firstMenuRow{
+    margin: 0 0 3% 0;
+}
+.divide{
+    width: 30.6%;
+    height: 100%;
+    margin-right: 4%;
+    background-color: #f9fafb;
+    padding: 0;
+}
+#firstMenuRow div:last-child, #secondMenuRow div:last-child{
+    margin: 0;
+}
+#firstMenuRow div a, #secondMenuRow div a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+#firstMenuRow div a p, #secondMenuRow div a p{
+    width: 100%;
+    margin-top: 30%;
+    text-align: center;
+    color: #333333;
+}
+
+#firstMenuRow div a, #secondMenuRow div a{
+    background-size: cover;
+}
+#firstMenuRow div a:hover, #secondMenuRow div a:hover {
+    text-decoration: none;
+    box-shadow: inset 0px 0px 0px 5px #ffc000;
+}
+
+/* Предложения по бренду */
+
+.offers{
+    width: 100%;
+    height: 200px;
+    margin: 0 0 50px 0;
+}
+.offers p{
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+}
+.offers .row{
+    width: 100%;
+    height: 46%;
+    margin: 40px 0;
+}
+.offers .row div{
+    width: 25%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border-bottom: 4px solid #f9fafb;
+    opacity: 0.4;
+}
+.offers .row div:hover{
+    border-bottom: 4px solid #ffc000;
+    opacity: 1;
+}
+.offers .row div a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin: 0 4%;
+    background-repeat: no-repeat;
+}
+.offers .row div a img {
+    height: 50%;
+    display: inline-block;
+    float: left;
+    margin: 7% 0;
+}
+.offers div div a p:nth-child(2){
+    width: 56%;
+    float: left;
+    font-size: 20px;
+    text-align: left;
+    color: #000;
+    margin-top: 3%;
+}
+.offers div div a p:last-child{
+    width: 64%;
+    float: left;
+    font-size: 14px;
+    text-align: left;
+    color: #7c7c7c;
+    font-weight: normal;
+}
+
+.offers .row div:last-child a {
+    margin: 0;
+}
+
+/* Новости */
+
+.news{
+    width: 100%;
+    min-height: 100px;
+}
+.news div{
+    width: 23.5%;
+    margin: 0 2% 0 0;
+    padding: 0;
+}
+.news div:nth-child(4n+4){
+    margin: 0 0 0 0;
+}
+.news div img{
+    width: 100%;
+}
+.news div p:nth-child(2){
+    width: 100%;
+    height: 45px;
+    overflow: hidden;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: justify;
+}
+.news div p:nth-child(3){
+    width: 100%;
+    height: 70px;
+    font-size: 12px;
+    text-align: justify;
+    overflow: hidden;
+}
+.news div button {
+    margin: 10px 0 30px 0;
+    width: 40%;
+    color: #000;
+    background: #ffc000;
+    font-size: 12px;
+}
+
+.btn-default:hover {
+    background: #204498;
+}
+
+/* footer */
+.containerFooter div{
+    width: 50%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.containerFooter div:first-child{
+    padding-right: 5%;
+}
+.containerFooter div:last-child{
+    padding-left: 5%;
+}
+.containerFooter div p:first-child{
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 5%;
+}
+.containerFooter div p{
+    color: #808285;
+}
+.containerFooter div ul{
+    height: 55%;
+    list-style: none;
+    width: 100%;
+    padding:0;
+}
+.containerFooter div ul li{
+    height: 30%;
+    width: 49%;
+    margin-right: 0.5%;
+    float:left;
+}
+
+.containerFooter div ul li:nth-child(2n+2) {
+    float:right;
+}
+.containerFooter div ul li a{
+    color: #fff;
+}
+
+/* Меню иннер */
+
+.menuInner{
+    height: 100%;
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+.pointMenu{
+    list-style: none;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.pointMenu li{
+    font-size: 15px;
+    float: left;
+   height: 100%;
+    margin: 0 4.4% 0 0;
+    padding: 1% 0;
+}
+.menuInner ul li a{
+    color: #fff;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+.menuInner ul li a:hover{
+
+    color: #ffc000;
+}
+
+.menuInner ul li:last-child{
+
+    margin: 0 0 0 0;
+}
+
+.menuInner button{
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 15%;
+    color: #fff;
+    background: #242526;
+    display: none;
+
+}
+.secondaryMenu{
+    display: none;
+
+}
+
+.secondaryMenu{  /*ul*/
+    position: absolute;
+    float: none;
+    background: #242526;
+    height: auto;
+    top: 50px;
+    left: 0;
+    width: 70%;
+    padding: 1%;
+    list-style: none;
+
+}
+.secondaryMenu li{ /*li*/
+    height: 15%;
+    width: 100%;
+    padding: 2% 0 0 4%;
+}
+
+
+
+/* Медиазапросы */
+
+@media screen and (min-width:320px)
+              and (max-width:767px){
+    .containerHeader{
+        width: 320px;
+        height: 210px;
+    }
+    .menuInner{
+        width: 320px;
+    }
+    .containerBody {
+        min-height: 620px;
+        width: 320px;
+    }
+    .containerFooter{
+        width: 320px;
+    }
+    .baner{
+        height: 620px;
+        position: relative;
+    }
+    .wrapHeader {
+        height: 210px;
+    }
+    .wrapBody{
+        height: 620px;
+    }
+    .wrapFooter {
+        bottom: -380px;
+    }
+    .header .logo {
+        height: 38%;
+    }
+    .header .logo a {
+
+        margin-top: 2%;
+    }
+    .header .select {
+        height: 35%;
+    }
+    .header .select form{
+        margin-top: 0px;
+    }
+    .header .select form label {
+        width: 100%;
+    }
+    .header .select form select{
+        display: block;
+        width: 100%;
+    }
+    .select .active {
+        top: 34%;
+        left: 5%;
+    }
+    .header .contact {
+        height: 27%;
+        padding-left: 15px;
+    }
+
+    .header .contact h3 {
+        padding-top: 0px;
+        font-size: 15px;
+    }
+    .header .contact p {
+    }
+
+    /* баннер */
+    #first1 {
+        width: 100%;
+        height: 50%;
+    }
+    #first2{
+        width: 50%;
+        height: 50%;
+    }
+
+    #first3 {
+        height: 72%;
+        width: 50%;
+        top: 50%;
+    }
+
+    #second1, #second2, #second3{
+        height: 50%;
+        width: 50%;
+    }
+    #second2{
+        top:50%;
+    }
+
+    #first1 a p:first-child {
+        margin-top: 20%;
+        font-size: 20px;
+        padding: 2px;
+    }
+    #first1 a p:last-child {
+        font-size: 19px;
+    }
+    #first1 a p span {
+        font-size: 30px;
+    }
+    #first3 a p:first-child {
+        font-size: 14px;
+    }
+    #first3 a p:first-child img {
+        display: inline-block;
+        width: 37%;
+    }
+    #first3 a p:last-child {
+        font-size: 10px;
+        width: 70%;
+        margin: 0 auto;
+    }
+    #second3 a p:nth-child(1), #second3 a p:nth-child(3) {
+        font-size: 13px;
+        margin: 13% 0 0 10%;
+    }
+    #second3 a p:nth-child(3) {
+        margin: 0 0 0 10%;
+    }
+    #second3 a p:nth-child(2) {
+        font-size: 26px;
+        margin: 0 0 0 10%;
+    }
+
+    #second2 a p:nth-child(1) {
+        font-size: 13px;
+        margin: 13% 0 0 10%;
+    }
+    #second2 a p:nth-child(2) {
+        font-size: 13px;
+        margin: 0 0 0 10%;
+    }
+    #second2 a p:nth-child(3) {
+        font-size: 13px;
+        margin: 0 0 0 10%;
+    }
+    .menu{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .divide{
+        width: 100%;
+        height: 92%;
+        margin: 0 0 6% 0;
+    }
+    #firstMenuRow div:last-child, #secondMenuRow div:last-child{
+        margin: 0 0 6% 0;
+    }
+    .offers .row div{
+        width: 50%;
+        height: 50%;
+    }
+
+    .offers p{
+        font-size: 16px;
+    }
+    .offers div div a p:nth-child(2){
+        font-size: 14px;
+    }
+    .offers div div a p:last-child{
+        font-size: 10px;;
+    }
+    .offers .row{
+        margin: 20px 0;
+    }
+    .offers .row div a {
+        margin: 0;
+    }
+
+    .containerFooter div:first-child {
+        padding-left: 5%;
+    }
+    .news{
+        padding-left: 5px;
+    }
+    .news div {
+        width: 48%;
+        margin: 0 2% 0 0;
+        padding: 0;
+    }
+    .news div:nth-child(2n+2){
+        margin: 0 0 0 0;
+    }
+    .news div p:nth-child(2) {
+        font-size: 10px;
+        height: 30px;
+    }
+    .news div p:nth-child(3) {
+        font-size: 10px;
+        height: 40px;
+    }
+    .news div button {
+        font-size: 9px;
+        width: 50%;
+    }
+
+    .wrapFooter {
+        height: 360px;
+    }
+    .containerFooter div{
+        width: 100%;
+        height: 50%;
+    }
+    .containerFooter div ul li {
+        height: auto;
+    }
+    .menuInner button{
+        display: block;
+    }
+    .pointMenu{
+        display: none;
+    }
+
+}
+
+
+@media screen and (min-width:768px)
+              and (max-width:991px){
+    .containerHeader, .containerBody, .containerFooter{
+        width: 768px;
+        margin:0;
+        /*padding-left: 15px;*/
+    }
+    .baner, .wrapBody{
+        height: 370px;
+    }
+
+    .menuInner{
+        width: 768px;
+        padding-left: 5px;
+    }
+
+    .header .select form select{
+        display: block;
+        width: 100%;
+    }
+    .header .select form label {
+        width: 100%;
+    }
+    .select .active {
+        top: 62%;
+        left: 5%;
+    }
+    .header .contact h3{
+        font-size: 20px;
+        padding-top: 15%;
+    }
+    .header .contact p{
+        margin-top: 10px;
+    }
+
+    /* баннер */
+    #first1 a p:first-child,#first1 a p:last-child {
+        font-size: 24px;
+    }
+    #first1 a p:first-child {
+        margin-top: 20%;
+        padding: 2px;
+    }
+    #first1 a p span {
+        font-size: 36px;
+    }
+    #first3 a p:first-child img {
+        display: inline-block;
+        width: 30%;
+    }
+
+    #first3 a p:first-child {
+        font-size: 16px;
+        margin: 66% 0 0 11%;
+    }
+    #first3 a p:last-child {
+        font-size: 10px;
+    }
+    #second2 a p:nth-child(1) {
+        font-size: 18px;
+        margin: 13% 0 0 12%;
+    }
+    #second2 a p:nth-child(2) {
+        font-size: 14px;
+        letter-spacing: 0px;
+        margin: 0 0 0 12%;
+    }
+    #second2 a p:nth-child(3) {
+        font-size: 14px;
+        margin: 0 0 0 12%;
+        letter-spacing: 0.5px;
+    }
+    #second3 a p:nth-child(1) {
+        font-size: 16px;
+        margin: 13% 0 0 9%;
+    }
+    #second3 a p:nth-child(3){
+        font-size: 16px;
+        margin: 0 0 0 9%;
+    }
+    #second3 a p:nth-child(2) {
+        font-size: 26px;
+        margin: 0 0 0 9%;
+    }
+
+    #firstMenuRow,#secondMenuRow{
+        height: 30%;
+    }
+    .offers div div a p:last-child{
+        font-size: 12px;
+    }
+
+    .news,.menu{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .news div p:nth-child(2) {
+        font-size: 10px;
+        height: 30px;
+    }
+    .news div p:nth-child(3) {
+        font-size: 10px;
+        height: 40px;
+    }
+    .news div button {
+        font-size: 10px;
+    }
+    .news div {
+        width: 23.4%;
+    }
+    .containerFooter div ul li {
+        height: auto;
+    }
+    .containerFooter div:first-child {
+        padding-left: 15px;
+    }
+    .pointMenu li {
+        font-size: 11px;
+        margin: 0 2% 0 0;
+        padding: 2% 0;
+    }
+}
+
+@media screen and (min-width:992px)
+              and (max-width:1199px){
+    .containerHeader, .containerBody, .containerFooter{
+        width: 992px;
+        margin:0;
+        padding-left: 15px;
+    }
+    .baner, .wrapBody{
+        height: 480px;
+    }
+    .menuInner{
+        width: 992px;
+        padding-right: 15px;
+    }
+
+    .header .select form select{
+        display: block;
+        width: 100%;
+    }
+    .header .select form label {
+        width: 100%;
+    }
+    .select .active {
+        top: 62%;
+        left: 3%;
+    }
+    .header .contact h3{
+        font-size: 20px;
+        padding-top: 15%;
+    }
+    .header .contact p{
+        margin-top: 10px;
+    }
+
+    /* баннер */
+
+    #first1 a p:first-child,#first1 a p:last-child {
+        font-size: 30px;
+    }
+
+    #first3 a p:first-child {
+        font-size: 20px;
+        margin: 66% 0 0 7%;
+    }
+    #first3 a p:last-child {
+        font-size: 12px;
+    }
+    #second2 a p:nth-child(1) {
+        font-size: 22px;
+    }
+    #second2 a p:nth-child(2) {
+        font-size: 16px;
+        letter-spacing: 0.8px;
+    }
+    #second2 a p:nth-child(3) {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    #firstMenuRow,#secondMenuRow{
+        height: 40%;
+    }
+
+    .pointMenu li{
+        font-size: 14px;
+        margin: 0 2% 0 0;
+        padding: 1% 0;
+    }
+
+}

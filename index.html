@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <title>Lending</title>
+
+</head>
+
+<body>
+<div class="container">
+    <header class="wrapHeader">
+        <div class="containerHeader">
+            <div class="row header">
+                <div class="logo col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <a href="#"><img src="img/logo.png"></a>
+                </div>
+
+                <div class="select col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                    <form method="get">
+                        <label for="dealer">Выберать дилера:</label>
+                        <select id="dealer" name="dealer" class="form-control">
+                            <option value="holpi">Атлант–М Холпи</option>
+                            <option value="mashinostroiteley">Атлант-М на Машиностроителей</option>
+                            <option value="nezavisimosti">Атлант-М на Независимости</option>
+                            <option value="borovaya">Атлант-М Боровая Ford</option>
+                            <option value="sukharevo">Атлант-М Сухарево</option>
+                            <option value="uruchye">Атлант-М Уручье</option>
+                        </select>
+                    </form>
+                    <img id="mazda" class="icons active" src="img/mazda.png" />
+                    <img id="vw" class="icons" src="img/vw.png" />
+                    <img id="kia" class="icons" src="img/kia.png" />
+                    <img id="ford" class="icons" src="img/ford.png" />
+                </div>
+                <div class="contact col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <h3>+375 (17) 201-01-01</h3>
+                    <p>г. Минск дер. Боровая, д. 2</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="wrapBody">
+        <div class="containerMenu">
+            <div class="menuInner">
+                <ul class="pointMenu">
+                    <li><a href="#newcar">Новые автомоблили</a></li>
+                    <li><a href="#usedcar">Автомобили с пробегом</a></li>
+                    <li><a href="#credit">Финансовые услуги</a></li>
+                    <li><a href="#service">Услуги сервиса</a></li>
+                    <li><a href="#parts">Запасные части</a></li>
+                    <li><a href="#wheel">Дополнительное оборудование</a></li>
+                </ul>
+                <ul class="secondaryMenu">
+                    <li><a href="#newcar">Новые автомоблили</a></li>
+                    <li><a href="#usedcar">Автомобили с пробегом</a></li>
+                    <li><a href="#credit">Финансовые услуги</a></li>
+                    <li><a href="#service">Услуги сервиса</a></li>
+                    <li><a href="#parts">Запасные части</a></li>
+                    <li><a href="#wheel">Дополнительное оборудование</a></li>
+                </ul>
+                <button type="button">&#9776;</button>
+
+
+            </div>
+        </div>
+        <div class="containerBody">
+            <div class="baner">
+                <div class="row" id="firstTopRow">
+                    <div id="first1" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <a href="#">
+                            <p>20-22 января</p>
+                            <p>большая распродажа в <span>атлант-м</span></p>
+
+                        </a>
+                    </div>
+                    <div id="first2" class="col-lg-3 col-md-3 col-sm-3 col-xs-6"></div>
+                    <div id="first3" class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <a href="#">
+                            <p>скидки до <img src="img/sale.png"/></p>
+                            <p>сервис &bull; запчасти &bull; аксессуары</p>
+
+                        </a>
+                    </div>
+                </div>
+                <div class="row" id="secondTopRow">
+                    <div id="second1" class="col-lg-3 col-md-3 col-sm-3 col-xs-6"></div>
+                    <div id="second2" class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <a href="#">
+                            <p>только 3 дня!</p>
+                            <p>Специальные цены</p>
+                            <p>у дилеров Атлант-М</p>
+                        </a>
+                    </div>
+                    <div id="second3" class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <a href="#">
+                            <p>Выгода до</p>
+                            <p>7000 BYN</p>
+                            <p>на новые автомобили</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu">
+                <div id="firstMenuRow" class="row">
+                    <div id="newcar" class="divide col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <a href="#" name="newcar">
+                            <p></p>
+                        </a>
+                    </div>
+                    <div id="usedcar" class="divide col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <a href="#" name="usedcar">
+                            <p></p>
+                        </a>
+                    </div>
+                    <div id="credit" class="divide col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <a href="#" name="credit">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+                <div id="secondMenuRow" class="row">
+                    <div id="service" class="divide col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <a href="#" name="service">
+                            <p></p>
+                        </a>
+                    </div>
+                    <div id="parts" class="divide col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <a href="#" name="parts">
+                            <p></p>
+                        </a>
+                    </div>
+                    <div id="wheel" class="divide col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <a href="#" name="wheel">
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offers">
+                <p>Отобразить предложения по бренду</p>
+                <div class="row">
+                    <div class="vw col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <a href="#">
+                            <img />
+                            <p></p>
+                            <p></p>
+                        </a>
+                    </div>
+                    <div  class="ford col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <a href="#">
+                            <img />
+                            <p></p>
+                            <p></p>
+                        </a>
+                    </div>
+                    <div class="mazda col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <a href="#">
+                            <img />
+                            <p></p>
+                            <p></p>
+                        </a>
+                    </div>
+                    <div class="kia col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                        <a href="#">
+                            <img />
+                            <p></p>
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="news">
+
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="wrapFooter">
+        <div class="containerFooter row" >
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <p>Атлант-М</p>
+                <p>Информационно-сервисный портал «Атлант-М Международный автомобильный холдинг» © 2007­-2017 Атлант-М</p>
+                <p>Информация, представленная на сайте не является договором публичной оферты.</p>
+
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <p>Дилеры</p>
+                <ul>
+                    <li><a href="#">Атлант-М на Машиностроителей</a></li>
+                    <li><a href="#">Атлант-М Сухарево</a></li>
+                    <li><a href="#">Атлант–М Уручье</a></li>
+                    <li><a href="#">Атлант–М Холпи</a></li>
+                    <li><a href="#">Атлант-М на Независимости</a></li>
+                    <li><a href="#">Атлант–М Боровая Ford</a></li>
+
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+
+</div>
+
+<!--<script src="TweenMax.min.js"></script>-->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
+
+
